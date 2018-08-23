@@ -1,0 +1,52 @@
+C:\Users\Lapek\Desktop\Light\Light\Light\bin\Debug\Light.exe.config
+C:\Users\Lapek\Desktop\Light\Light\Light\obj\Debug\Light.csprojResolveAssemblyReference.cache
+C:\Users\Lapek\Desktop\Light\Light\Light\obj\Debug\MainWindow.baml
+C:\Users\Lapek\Desktop\Light\Light\Light\obj\Debug\MainWindow.g.cs
+C:\Users\Lapek\Desktop\Light\Light\Light\obj\Debug\App.g.cs
+C:\Users\Lapek\Desktop\Light\Light\Light\obj\Debug\Light_MarkupCompile.cache
+C:\Users\Lapek\Desktop\Light\Light\Light\obj\Debug\Light.g.resources
+C:\Users\Lapek\Desktop\Light\Light\Light\obj\Debug\Light.Properties.Resources.resources
+C:\Users\Lapek\Desktop\Light\Light\Light\obj\Debug\Light.csproj.GenerateResource.Cache
+C:\Users\Lapek\Desktop\Light\Light\Light\bin\Debug\Light.exe
+C:\Users\Lapek\Desktop\Light\Light\Light\bin\Debug\Light.pdb
+C:\Users\Lapek\Desktop\Light\Light\Light\obj\Debug\Light.exe
+C:\Users\Lapek\Desktop\Light\Light\Light\obj\Debug\Light.pdb
+D:\DyskGoogle\Light\Light\Light\bin\Debug\Light.exe.config
+D:\DyskGoogle\Light\Light\Light\obj\Debug\Light.exe
+D:\DyskGoogle\Light\Light\Light\obj\Debug\Light.pdb
+D:\DyskGoogle\Light\Light\Light\bin\Debug\Light.exe
+D:\DyskGoogle\Light\Light\Light\bin\Debug\Light.pdb
+D:\DyskGoogle\Light\Light\Light\obj\Debug\Light.csprojResolveAssemblyReference.cache
+D:\DyskGoogle\Light\Light\Light\obj\Debug\MainWindow.baml
+D:\DyskGoogle\Light\Light\Light\obj\Debug\MainWindow.g.cs
+D:\DyskGoogle\Light\Light\Light\obj\Debug\App.g.cs
+D:\DyskGoogle\Light\Light\Light\obj\Debug\Light_MarkupCompile.cache
+D:\DyskGoogle\Light\Light\Light\obj\Debug\Light.g.resources
+D:\DyskGoogle\Light\Light\Light\obj\Debug\Light.Properties.Resources.resources
+D:\DyskGoogle\Light\Light\Light\obj\Debug\Light.csproj.GenerateResource.Cache
+C:\FolderWorkspaceAVR\Light\Light\bin\Debug\Light.exe.config
+C:\FolderWorkspaceAVR\Light\Light\bin\Debug\Light.exe
+C:\FolderWorkspaceAVR\Light\Light\bin\Debug\Light.pdb
+C:\FolderWorkspaceAVR\Light\Light\obj\Debug\Light.csprojResolveAssemblyReference.cache
+C:\FolderWorkspaceAVR\Light\Light\obj\Debug\MainWindow.baml
+C:\FolderWorkspaceAVR\Light\Light\obj\Debug\MainWindow.g.cs
+C:\FolderWorkspaceAVR\Light\Light\obj\Debug\App.g.cs
+C:\FolderWorkspaceAVR\Light\Light\obj\Debug\Light_MarkupCompile.cache
+C:\FolderWorkspaceAVR\Light\Light\obj\Debug\Light.g.resources
+C:\FolderWorkspaceAVR\Light\Light\obj\Debug\Light.Properties.Resources.resources
+C:\FolderWorkspaceAVR\Light\Light\obj\Debug\Light.csproj.GenerateResource.Cache
+C:\FolderWorkspaceAVR\Light\Light\obj\Debug\Light.exe
+C:\FolderWorkspaceAVR\Light\Light\obj\Debug\Light.pdb
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\bin\Debug\Light.exe.config
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\obj\Debug\Light.exe
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\obj\Debug\Light.pdb
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\obj\Debug\Light.csprojResolveAssemblyReference.cache
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\obj\Debug\MainWindow.baml
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\obj\Debug\MainWindow.g.cs
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\obj\Debug\App.g.cs
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\obj\Debug\Light_MarkupCompile.cache
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\obj\Debug\Light.g.resources
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\bin\Debug\Light.exe
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\bin\Debug\Light.pdb
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\obj\Debug\Light.Properties.Resources.resources
+C:\Users\Marcin Ziajkowski\Desktop\Praca Dyplomowa\Prezentacja\Pliki źródłowe\Light\Light\obj\Debug\Light.csproj.GenerateResource.Cache

@@ -1,0 +1,86 @@
+﻿<Window x:Class="Light.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SMART LIGHT" Height="442" Width="915.937">
+    <Grid Margin="0,0,-22,0" Height="410" VerticalAlignment="Top">
+        <ProgressBar x:Name="C01_LX" HorizontalAlignment="Left" Orientation="Vertical" Height="145" Margin="10,27,0,0" Maximum="7500" VerticalAlignment="Top" Width="28"/>
+        <ProgressBar x:Name="C02_LX" HorizontalAlignment="Left" Orientation="Vertical" Height="145" Margin="65,27,0,0" Maximum="7500" VerticalAlignment="Top" Width="28"/>
+        <Button x:Name="Connect_Button"  Content="Connect" HorizontalAlignment="Left" Margin="821,10,0,0" VerticalAlignment="Top" Width="75" Click="Connect_Button_Click"/>
+        <Label x:Name="C01_name" Content="C01" HorizontalAlignment="Left" Margin="10,1,0,0" VerticalAlignment="Top"/>
+
+
+
+        <TextBlock x:Name="SendBlock" HorizontalAlignment="Left" Margin="685,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="308" Width="220" Background="#FFBEBEBE"/>
+        <TextBlock x:Name="ReceiveBlock"  HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="452,92,0,0" Height="308" Width="228" Background="#FFBEBEBE"/>
+
+
+        <Label x:Name="Receive_label" Content="Receive" HorizontalAlignment="Left" Margin="538,61,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.283,0.01"/>
+        <Label x:Name="Send_label" Content="Send" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="767,61,0,0"/>
+        <Label x:Name="C02_name" Content="C02" HorizontalAlignment="Left" Margin="67,1,0,0" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="C03_LX" HorizontalAlignment="Left" Orientation="Vertical" Height="145" Margin="122,27,0,0" Maximum="7500" VerticalAlignment="Top" Width="28"/>
+        <Label x:Name="C03_name" Content="C03" HorizontalAlignment="Left" Margin="122,1,0,0" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="C04_LX" HorizontalAlignment="Left" Orientation="Vertical" Height="145" Margin="177,27,0,0" Maximum="7500" VerticalAlignment="Top" Width="28"/>
+        <Label x:Name="C04_name" Content="C04" HorizontalAlignment="Left" Margin="177,1,0,0" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="C05_LX" HorizontalAlignment="Left" Orientation="Vertical" Height="145" Margin="227,27,0,0" Maximum="7500" VerticalAlignment="Top" Width="28"/>
+        <Label x:Name="C05_name" Content="C05" HorizontalAlignment="Left" Margin="232,1,0,0" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="C06_LX" HorizontalAlignment="Left" Orientation="Vertical" Height="145" Margin="287,27,0,0" Maximum="7500" VerticalAlignment="Top" Width="28"/>
+        <Label x:Name="C06_name" Content="C06" HorizontalAlignment="Left" Margin="287,1,0,0" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="C07_LX" HorizontalAlignment="Left" Orientation="Vertical" Height="145" Margin="342,27,0,0" Maximum="7500" VerticalAlignment="Top" Width="28"/>
+        <Label x:Name="C07_name" Content="C07" HorizontalAlignment="Left" Margin="342,1,0,0" VerticalAlignment="Top"/>
+        <ProgressBar x:Name="C08_LX" HorizontalAlignment="Left" Orientation="Vertical" Height="145" Margin="397,27,0,0" Maximum="7500" VerticalAlignment="Top" Width="28"/>
+        <Label x:Name="C08_name" Content="C08" HorizontalAlignment="Left" Margin="397,1,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Cname01" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="C01" VerticalAlignment="Top" Width="50" Margin="10,224,0,0"/>
+        <TextBox x:Name="Cname02" HorizontalAlignment="Left" Height="23" Margin="67,224,0,0" TextWrapping="Wrap" Text="C02" VerticalAlignment="Top" Width="48"/>
+        <TextBox x:Name="Cname04" HorizontalAlignment="Left" Height="23" Margin="177,224,0,0" TextWrapping="Wrap" Text="C04" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="Cname05" HorizontalAlignment="Left" Height="23" Margin="232,224,0,0" TextWrapping="Wrap" Text="C05" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="Cname06" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="C06" VerticalAlignment="Top" Width="50" Margin="287,224,0,0"/>
+        <TextBox x:Name="Cname03" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="C03" VerticalAlignment="Top" Width="50" Margin="122,224,0,0"/>
+        <TextBox x:Name="Cname07" HorizontalAlignment="Left" Height="23" Margin="342,224,0,0" TextWrapping="Wrap" Text="C07" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="Cname08" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="C08" VerticalAlignment="Top" Width="50" Margin="397,224,0,0"/>
+        <CheckBox x:Name="CB01" Content="C01" HorizontalAlignment="Left" Margin="10,203,0,0" VerticalAlignment="Top" Unchecked="CB01_Unchecked" Checked="CB01_Checked"/>
+        <CheckBox x:Name="CB02" Content="C02" HorizontalAlignment="Left" Margin="65,203,0,0" VerticalAlignment="Top" Checked="CB02_Checked" Unchecked="CB02_Unchecked"/>
+        <CheckBox x:Name="CB03" Content="C03" HorizontalAlignment="Left" Margin="122,203,0,0" VerticalAlignment="Top" Checked="CB03_Checked" Unchecked="CB03_Unchecked"/>
+        <CheckBox x:Name="CB04" Content="C04" HorizontalAlignment="Left" Margin="177,203,0,0" VerticalAlignment="Top" Checked="CB04_Checked" Unchecked="CB04_Unchecked"/>
+        <CheckBox x:Name="CB05" Content="C05" HorizontalAlignment="Left" Margin="232,203,0,0" VerticalAlignment="Top" Checked="CB05_Checked" Unchecked="CB05_Unchecked"/>
+        <CheckBox x:Name="CB06" Content="C06" HorizontalAlignment="Left" Margin="287,203,0,0" VerticalAlignment="Top" Checked="CB06_Checked" Unchecked="CB06_Unchecked"/>
+        <CheckBox x:Name="CB07" Content="C07" HorizontalAlignment="Left" Margin="342,203,0,0" VerticalAlignment="Top" Checked="CB07_Checked" Unchecked="CB07_Unchecked"/>
+        <CheckBox x:Name="CB08" Content="C08" HorizontalAlignment="Left" Margin="397,203,0,0" VerticalAlignment="Top" Checked="CB08_Checked" Unchecked="CB08_Unchecked"/>
+        <TextBox x:Name="Rname01" HorizontalAlignment="Left" Height="23" Margin="10,276,0,0" TextWrapping="Wrap" Text="R01" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="Rname03" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="R03" VerticalAlignment="Top" Width="50" Margin="122,276,0,0"/>
+        <TextBox x:Name="Rname02" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="R02" VerticalAlignment="Top" Width="48" Margin="67,276,0,0"/>
+        <TextBox x:Name="Rname08" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="R08" VerticalAlignment="Top" Width="50" Margin="397,276,0,0"/>
+        <TextBox x:Name="Rname07" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="R07" VerticalAlignment="Top" Width="50" Margin="342,276,0,0"/>
+        <TextBox x:Name="Rname06" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="R06" VerticalAlignment="Top" Width="50" Margin="287,276,0,0"/>
+        <TextBox x:Name="Rname05" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="R05" VerticalAlignment="Top" Width="50" Margin="232,276,0,0"/>
+        <TextBox x:Name="Rname04" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="R04" VerticalAlignment="Top" Width="50" Margin="177,276,0,0"/>
+        <Slider x:Name="Sowak" HorizontalAlignment="Left" Margin="10,361,0,0" VerticalAlignment="Top" Width="424" Height="49" RenderTransformOrigin="0.5,0.5" Maximum="7500" Minimum="100" TickFrequency="10" Value="600" ValueChanged="Slider_ValueChanged" SmallChange="1"/>
+        <TextBlock x:Name="Zakres" HorizontalAlignment="Left" Margin="10,340,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" Text="Zakres:"/>
+        <TextBlock x:Name="PWM01" HorizontalAlignment="Left" Margin="17,304,0,0" Text="128" VerticalAlignment="Top" Width="43"/>
+        <TextBlock x:Name="PWM02" HorizontalAlignment="Left" Margin="74,304,0,0" TextWrapping="Wrap" Text="128" VerticalAlignment="Top" Width="41"/>
+        <TextBlock x:Name="PWM03" HorizontalAlignment="Left" Margin="127,304,0,0" TextWrapping="Wrap" Text="128" VerticalAlignment="Top" Width="45"/>
+        <TextBlock x:Name="PWM04" HorizontalAlignment="Left" Margin="182,304,0,0" TextWrapping="Wrap" Text="128" VerticalAlignment="Top" Width="45"/>
+        <TextBlock x:Name="PWM05" HorizontalAlignment="Left" Margin="237,304,0,0" TextWrapping="Wrap" Text="128" VerticalAlignment="Top" Width="45"/>
+        <TextBlock x:Name="PWM06" HorizontalAlignment="Left" Margin="292,304,0,0" TextWrapping="Wrap" Text="128" VerticalAlignment="Top" Width="45"/>
+        <TextBlock x:Name="PWM07" HorizontalAlignment="Left" Margin="347,304,0,0" TextWrapping="Wrap" Text="128" VerticalAlignment="Top" Width="45"/>
+        <TextBlock x:Name="PWM08" HorizontalAlignment="Left" Margin="402,304,0,0" TextWrapping="Wrap" Text="128" VerticalAlignment="Top" Width="45"/>
+        <CheckBox x:Name="CB10" Content="R01" HorizontalAlignment="Left" Margin="10,260,0,0" VerticalAlignment="Top" Width="50" Unchecked="CB10_Unchecked" Checked="CB10_Checked"/>
+        <CheckBox x:Name="CB20" Content="R02" HorizontalAlignment="Left" Margin="67,260,0,0" VerticalAlignment="Top" Width="48" Checked="CB20_Checked" Unchecked="CB20_Unchecked"/>
+        <CheckBox x:Name="CB40" Content="R04" HorizontalAlignment="Left" Margin="177,260,0,0" VerticalAlignment="Top" Width="50" Checked="CB40_Checked" Unchecked="CB40_Unchecked"/>
+        <CheckBox x:Name="CB30" Content="R03" HorizontalAlignment="Left" Margin="122,260,0,0" VerticalAlignment="Top" Width="50" Checked="CB30_Checked" Unchecked="CB30_Unchecked"/>
+        <CheckBox x:Name="CB50" Content="R05" HorizontalAlignment="Left" Margin="232,260,0,0" VerticalAlignment="Top" Width="50" Checked="CB50_Checked" Unchecked="CB50_Unchecked"/>
+        <CheckBox x:Name="CB60" Content="R06" HorizontalAlignment="Left" Margin="287,260,0,0" VerticalAlignment="Top" Width="50" Checked="CB60_Checked" Unchecked="CB60_Unchecked"/>
+        <CheckBox x:Name="CB70" Content="R07" HorizontalAlignment="Left" Margin="342,260,0,0" VerticalAlignment="Top" Width="50" Checked="CB70_Checked" Unchecked="CB70_Unchecked"/>
+        <CheckBox x:Name="CB80" Content="R08" HorizontalAlignment="Left" Margin="397,260,0,0" VerticalAlignment="Top" Width="50" Checked="CB80_Checked" Unchecked="CB80_Unchecked"/>
+        <Label x:Name="C01_LX_int" Content="" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label x:Name="C02_LX_int" Content="" HorizontalAlignment="Left" Margin="65,172,0,0" VerticalAlignment="Top" Width="57"/>
+        <Label x:Name="C07_LX_int" Content="" HorizontalAlignment="Left" Margin="342,172,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label x:Name="C08_LX_int" Content="" HorizontalAlignment="Left" Margin="397,172,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label x:Name="C06_LX_int" Content="" HorizontalAlignment="Left" Margin="287,172,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label x:Name="C05_LX_int" Content="" HorizontalAlignment="Left" Margin="227,172,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label x:Name="C04_LX_int" Content="" HorizontalAlignment="Left" Margin="177,172,0,0" VerticalAlignment="Top" Width="50"/>
+        <Label x:Name="C03_LX_int" Content="" HorizontalAlignment="Left" Margin="122,172,0,0" VerticalAlignment="Top" Width="55"/>
+        <Button x:Name="DebugButton" Content="Debug Off" HorizontalAlignment="Left" Margin="646,10,0,0" VerticalAlignment="Top" Width="75" Click="DebugButton_Click"/>
+
+
+    </Grid>
+</Window>
